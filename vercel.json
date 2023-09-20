@@ -1,5 +1,8 @@
 {
-  "version": 2,
+  "buildCommand": "node ace build --production",
+  "devCommand": "node ace serve --watch",
+  "installCommand": "npm ci --production",
+  "outputDirectory": "build",
   "builds": [
     {
       "src": "./server.js",
